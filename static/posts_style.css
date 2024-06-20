@@ -1,0 +1,109 @@
+main {
+    display: flex;
+    justify-content: start;
+    align-self: flex-start; 
+    
+    width: 100%;
+}
+
+#main_post_box {
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+    gap: 20px;
+    padding: 20px;
+}
+
+#create_post_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post_box{
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    box-shadow: 0.7rem 0.5rem 1em 0.2rem rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.post_box_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.post_box_title {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-self: center;
+    text-align: start;
+    
+    flex: 1;
+    margin: 0;
+}
+
+.post_content{
+    margin: 0; 
+    margin-top: 0.4em;
+    font-size: 1.3rem;
+    font-family: Cursive;
+    word-wrap: break-word;
+}
+
+#create_post_textinput{
+    resize: none;
+    border: #ff9914 1px dashed;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #d6d6d6ee;
+    height: 7rem;
+    margin: 0;
+}
+
+.post_likes_info{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    
+    gap: 10px;
+    font-size: 0.8em;
+    margin-top: 5px;
+    padding: 0.2em;
+}
+
+.post_button{
+    background-color: #007bff; 
+    color: #fff;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 2px;  
+
+    width: clamp(5px, 10vw, 100px);
+    font-size: 1em;
+}
+.post_button:hover {
+    opacity: 0.7;
+}
+
+#create_post_button{
+    background-color: #ff9914; 
+}
+#post_box_dell_button{
+    align-self: center;
+
+    width: clamp(5px, 5vw, 50px);
+    background-color: #a83000;
+    padding: 4px 2px;
+    font-size: 0.6em;
+}

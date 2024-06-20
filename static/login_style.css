@@ -1,0 +1,51 @@
+.login_box{
+    background-color: rgb(255, 234, 206);
+    border: 1px black solid;
+    
+    box-shadow: 0.7rem 0.5rem 1em 0.2rem rgba(0,0,0,0.3);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.login_box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.login_input_holder{
+    border: 1px solid black;
+    font-family: Cursive;
+
+    font-size: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.login_box_button{
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    align-self: center;
+
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 90%;
+}
+.login_box_button:hover{
+    opacity: 0.7;
+}
+
+#login_button{
+    background-color: #04AA6D;
+}
+
+#create_login{
+    background-color: #b95e08;
+}

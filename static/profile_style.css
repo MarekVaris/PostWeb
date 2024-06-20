@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+#profile_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 80vw;
+    gap: 20px;
+    padding: 20px;
+}
+
+#welcome_profile{
+    font-size: clamp(10px, 10vw, 50px);
+    align-self: center;
+}
+
+#delete_button_profile{
+    align-self: center;
+    border: none;
+    cursor: pointer;
+    color: #eeeeee;
+    font-family: Cursive;
+    
+    border-radius: 10px;
+    width: clamp(50px, 10rem, 150px);
+    background-color: #a83000;
+    padding: 4px 2px;
+    font-size: 1em;
+}
+#delete_button_profile:hover {
+    opacity: 0.7;
+}

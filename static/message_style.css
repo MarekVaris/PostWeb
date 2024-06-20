@@ -1,0 +1,113 @@
+main {
+    display: flex;
+    justify-content: start;
+    align-self: flex-start; 
+
+    width: 100%;
+}
+
+#main_mess_box {
+    display: flex;
+    flex-direction: column;
+
+    
+    gap: 20px;
+    padding: 30px;
+}
+
+.encrypt_box{
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: clamp(200px, 80vw, 1500px);
+    box-shadow: 0.7rem 0.5rem 1em 0.2rem rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.encrypt_box form{
+    width: 100%;
+}
+.encrypt_box div{
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    width: 100%;
+    gap: 10px;
+}
+
+.label_mess{
+    font-size: 1.4em;
+    font-family: Cursive;
+}
+
+.mess_input{
+    background-color: #d6d6d6ee;
+    resize: none;
+
+    font-family: Cursive;
+    
+    border-radius: 10px;
+    font-size: 1rem;
+    height: 7rem;
+    margin: 0;
+    flex: 1;
+}
+#message_text_input{
+    height: 6em;
+    font-size: 0.8rem;
+}
+
+.decrypt_text_input{
+    border: #4CAF50 1px dashed;
+    height: 3em;
+    font-size: 0.7rem;
+    text-align: left;
+    align-self: center;
+}
+.encrypt_key_input{
+    border: #ff9e1f 1px dashed;
+    height: 3em;
+    font-size: 0.7rem;
+    text-align: left;
+    align-self: center;
+}
+
+.mess_button{
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Cursive;
+
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#new_mess_button{
+    background-color: #4CAF50;
+}
+
+#decrypt_mess_button{
+    background-color: #ff9e1f;
+}
+
+.mess_box_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#label_info_name{
+    margin: 0;
+}
